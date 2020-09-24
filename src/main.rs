@@ -1,3 +1,6 @@
+mod date;
+
 fn main() {
-    println!("Hello, world!");
+    let tmpDate = Date::new();
+    println!("{}", tmpDate.to_string());
 }
